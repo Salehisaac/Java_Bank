@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="251.06532303609083" y="307.1365958763256">SE</node>
+    <node x="387.3832759490189" y="240.72053681814307">Account</node>
+    <node x="557.6223337650174" y="-132.9727016739048">Employee</node>
+    <node x="560.3526854626057" y="201.45026839671132">Transaction</node>
+    <node x="96.35773354730256" y="235.23552412611255">Auth</node>
+    <node x="288.2702743750811" y="34.95866088234218">Admin</node>
+    <node x="427.09111580914094" y="370.5306584214633">Customer</node>
+    <node x="-82.18527637696376" y="173.29341835987972">Bank</node>
+    <node x="59.57498394733142" y="396.716269001469">StartApp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StartApp" target="SE" relationship="REALIZATION">
+      <point x="71.99033908875941" y="-49.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Employee" target="Transaction" relationship="GENERALIZATION">
+      <point x="-53.269648302411724" y="61.5" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8351309707241911" showDependencies="false" x="1052.6909594095941" y="407.1337638376384" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
